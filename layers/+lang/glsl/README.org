@@ -1,0 +1,17 @@
+#+TITLE: GL Shading Language layer
+
+# The maximum height of the logo should be 200 pixels.
+[[img/OpenGL_170px_Nov14.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+ - [[#description][Description]]
+ - [[#install][Install]]
+
+* Description
+This layer provides syntax highlighting for GLSL files. Default extensions are: .vs, .vert, .fs, .frag, .gs, .geom, .glsl.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =glsl= to the existing =dotspacemacs-configuration-layers= list in this
+file.
